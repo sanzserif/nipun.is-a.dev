@@ -1,5 +1,5 @@
-import { defineConfig } from 'astro/config';
-import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from "astro/config";
+import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
@@ -7,6 +7,6 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   // Add your domain name here
-  site: "https://yourwebsite.com/",
-  integrations: [ sitemap()]
+  site: "https://nipun.is-a.dev",
+  integrations: [sitemap()],
 });
